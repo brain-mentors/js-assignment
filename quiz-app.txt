@@ -1,0 +1,39 @@
+JavaScript Quiz App Assignment
+
+Objective: Build a Quiz App in JavaScript that includes a login feature, timed quiz, API-based questions, and result display showing correct and incorrect answers. This app will help you practice working with authentication, API calls, timers, and dynamic UI updates in JavaScript.
+
+Requirements
+
+	1.	User Login:
+	•	Create a simple login form that allows users to enter a name and email (for simplicity, no password needed).
+	•	Store user info in local storage upon successful login.
+	•	Redirect the user to the quiz page after logging in.
+	2.	Fetch Quiz Questions from an API:
+	•	Upload Questions on GitHub and fetch it from there.
+	•	Fetch a set of 10 questions upon starting the quiz.
+	•	Display one question at a time with multiple-choice options.
+	3.	Timer for Quiz:
+	•	Set a timer of 10 minutes for the entire quiz.
+	•	Display the timer in the top right corner of the screen.
+	•	When the timer expires, automatically submit the quiz and show results.
+	4.	Quiz Flow:
+	•	Users can navigate between questions using “Next” and “Previous” buttons.
+	•	Add a “Submit” button that allows the user to submit answers before the timer ends.
+	•	On submission, prevent any further changes to answers and stop the timer.
+	5.	Result Display:
+	•	After submitting, show a summary screen with:
+	•	Total number of correct and incorrect answers.
+	•	Highlight each question as either correct or incorrect based on the user’s answer.
+	6.	Store Results:
+	•	Store the user’s result and time of submission in local storage, allowing the user to revisit the quiz results.
+
+Features Overview
+
+	1.	Login Page: Basic login with name and email fields.
+	2.	Quiz Page:
+	•	Timer showing countdown from 10 minutes.
+	•	Questions loaded from the API, one question per view.
+	•	Next, Previous, and Submit buttons.
+	3.	Result Page:
+	•	Summary of correct and incorrect answers.
+	•	Highlighted answers showing correct vs. user’s answer.
